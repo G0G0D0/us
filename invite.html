@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Marriage Invitation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="background"></div>
+    <div class="invitation">
+      <div class="envelope">
+        <div class="envelope-top"></div>
+        <div class="envelope-content">
+          <h1 class="animate__animated animate__fadeInDown">Let's take the next step</h1>
+          <div class="content">
+            <p class="animate__animated animate__fadeInLeft">My Baby,</p>
+            <p class="animate__animated animate__fadeInRight">On this joyous occasion, I invite you to join me in a celebration of love and commitment as we embark on a beautiful journey together.</p>
+            <button class="open-btn animate__animated animate__fadeInUp" onclick="revealOptions()">Open to Reveal</button>
+            <div class="options" id="options">
+              <h2 class="animate__animated animate__zoomIn">Will You Marry Me?</h2>
+              <button class="option-btn animate__animated animate__fadeInLeft" onclick="selectOption(true)">Yes</button>
+              <button class="option-btn animate__animated animate__fadeInRight" onclick="selectOption(false)">No</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
